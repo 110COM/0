@@ -211,10 +211,10 @@ BTV北京卫视,http://114.254.85.245:88/tsfile/live/0122_1.m3u8?key=txiptv&play
 贵州卫视,http://123.182.211.96:8088/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 贵州卫视,http://222.173.134.150:8888/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 贵州卫视,http://113.57.150.190:9000/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://123.52.43.144:8888/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://113.57.103.216:9000/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://58.220.219.14:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://116.135.12.14:1099/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0
+辽宁卫视,http://171.117.201.131:8084/rtp/226.0.2.173:9296
+辽宁卫视,http://60.220.167.173:8085/rtp/226.0.2.173:9296
+辽宁卫视,http://61.134.214.241:8082/rtp/226.0.2.173:9296
+辽宁卫视,http://61.134.214.241:8082/rtp/226.0.2.173:9296
 辽宁卫视,http://183.66.49.230:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 重庆卫视,http://183.66.49.230:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 重庆卫视,http://113.57.21.233:8666/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
