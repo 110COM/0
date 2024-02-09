@@ -1,5 +1,15 @@
 #EXTINF:-1 ,CCTV1
-http://221.1.210.106:8053/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+http://111.225.113.229:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 ,CCTV1
+http://112.235.200.198:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 ,CCTV1
+http://58.53.152.23:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 ,CCTV1
+http://111.225.113.81:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 ,CCTV1
+http://112.235.202.141:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 ,CCTV1
+http://123.13.59.41:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 ,CCTV1
 http://58.208.3.7:8888/rtp/239.49.8.129:6000
 #EXTINF:-1 ,CCTV1
