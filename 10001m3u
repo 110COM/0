@@ -19,8 +19,6 @@ http://58.208.3.7:8888/rtp/239.49.8.130:6000
 #EXTINF:-1 ,CCTV2
 http://113.24.136.208:8082/udp/239.1.1.8:8008
 #EXTINF:-1 ,CCTV2
-http://60.223.72.30:8001/rtp/226.0.2.154:9144
-#EXTINF:-1 ,CCTV2
 http://111.225.113.38:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV2
 http://111.225.94.62:9901/tsfile/live/faacts/0002_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -35,11 +33,7 @@ http://60.223.72.30:8001/rtp/226.0.2.208:9576
 #EXTINF:-1 ,CCTV3
 http://1.69.112.94:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV3
-http://171.116.188.14:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV3
 http://122.237.144.68:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV4
-http://171.116.191.85:9999/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV4
 http://58.208.3.7:8888/rtp/239.49.8.131:6000
 #EXTINF:-1 ,CCTV4
@@ -51,11 +45,7 @@ http://118.72.68.254:888/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV4
 http://111.225.113.229:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV4
-http://171.116.189.234:9999/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV4
 http://1.69.114.142:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV5
-http://1.69.112.197:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV5
 http://58.208.3.7:8888/rtp/239.49.9.32:6000
 #EXTINF:-1 ,CCTV5
@@ -79,15 +69,9 @@ http://113.24.136.208:8082/udp/239.1.1.12:8012
 #EXTINF:-1 ,CCTV5+
 http://60.223.72.30:8001/rtp/226.0.2.168:9256
 #EXTINF:-1 ,CCTV5+
-http://221.14.159.159:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV5+
 http://1.69.112.197:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV5+
 http://61.134.255.188:9999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV5+
-http://1.69.114.223:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV6
-http://1.194.50.179:10086/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV6
 http://58.208.3.7:8888/rtp/239.49.9.33:6000
 #EXTINF:-1 ,CCTV6
@@ -107,8 +91,6 @@ http://111.225.94.83:9901/tsfile/live/faacts/0007_1.m3u8?key=txiptv&playlive=1&a
 #EXTINF:-1 ,CCTV7
 http://58.208.3.7:8888/rtp/239.49.8.132:6000
 #EXTINF:-1 ,CCTV7
-http://113.24.136.208:8082/udp/239.1.1.14:8014
-#EXTINF:-1 ,CCTV7
 http://60.223.72.30:8001/rtp/226.0.2.159:9184
 #EXTINF:-1 ,CCTV7
 http://111.225.94.83:9901/tsfile/live/faacts/0007_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -119,8 +101,6 @@ http://183.185.139.227:9999/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid
 #EXTINF:-1 ,CCTV7
 http://111.225.113.229:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV8
-http://171.116.191.85:9999/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV8
 http://58.208.3.7:8888/rtp/239.49.9.34:6000
 #EXTINF:-1 ,CCTV8
 http://113.24.136.208:8082/udp/239.1.1.15:8015
@@ -130,8 +110,6 @@ http://60.223.72.30:8001/rtp/226.0.2.211:9600
 http://118.72.68.254:888/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV8
 http://171.116.246.54:9999/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV8
-http://1.194.50.179:10086/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV8
 http://123.13.59.41:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 ,CCTV9
@@ -145,13 +123,9 @@ http://60.223.72.30:8001/rtp/226.0.2.161:9200
 #EXTINF:-1 ,CCTV9
 http://113.25.227.158:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV9
-http://171.116.189.247:9999/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV9
 http://1.69.112.94:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV9
 http://1.69.112.197:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV10
-http://171.116.189.234:9999/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV10
 http://58.208.3.7:8888/rtp/239.49.8.134:6000
 #EXTINF:-1 ,CCTV10
@@ -163,21 +137,11 @@ http://123.154.18.105:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=
 #EXTINF:-1 ,CCTV10
 http://36.249.150.141:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV10
-http://123.160.232.44:85/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV10
 http://113.25.227.12:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV11
-http://123.182.214.119:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV11
-http://113.24.136.208:8082/udp/239.1.1.18:8018
 #EXTINF:-1 ,CCTV11
 http://113.57.21.233:8666/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV11
-http://123.160.232.44:85/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV11
 http://111.225.114.93:808/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV11
-http://114.254.82.125:88/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV12
 http://116.237.248.97:7777/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV12
@@ -203,15 +167,11 @@ http://113.24.136.208:8082/udp/239.1.1.20:8020
 #EXTINF:-1 ,CCTV13
 http://60.223.72.30:8001/rtp/226.0.2.165:9232
 #EXTINF:-1 ,CCTV13
-http://111.225.114.11:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV13
 http://112.235.200.98:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV13
 http://123.154.30.136:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 ,CCTV13
 http://111.225.113.38:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV14
-http://171.116.188.14:9999/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV14
 http://58.208.3.7:8888/rtp/239.49.8.136:6000
 #EXTINF:-1 ,CCTV14
@@ -223,17 +183,11 @@ http://118.72.68.254:888/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV14
 http://183.185.139.227:9999/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV14
-http://123.182.214.119:9901/tsfile/live/faacts/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV14
 http://58.23.26.105:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV15
 http://112.235.200.198:9901/tsfile/live/0015_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV15
-http://123.160.232.44:85/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV15
 http://111.225.93.71:9901/tsfile/live/faacts/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV15
-http://1.194.50.179:10086/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV15
 http://36.249.150.141:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV16
@@ -244,8 +198,6 @@ http://113.24.136.208:8082/udp/239.1.1.122:8122
 http://60.223.72.30:8001/rtp/226.0.2.169:9264
 #EXTINF:-1 ,CCTV16
 http://1.69.112.197:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CCTV16
-http://1.69.114.223:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV17
 http://111.225.94.182:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CCTV17
@@ -293,11 +245,7 @@ http://58.208.3.7:8888/rtp/239.49.8.186:6000
 #EXTINF:-1 ,东南卫视
 http://113.24.136.208:8082/udp/239.1.1.33:8033
 #EXTINF:-1 ,东南卫视
-http://171.116.189.234:9999/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,东南卫视
 http://112.235.200.198:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,东南卫视
-http://171.116.188.14:9999/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,东南卫视
 http://112.235.202.17:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,东方卫视
@@ -306,12 +254,6 @@ http://111.225.93.71:9901/tsfile/live/0138_2.m3u8?key=txiptv&playlive=1&authid=0
 http://58.208.3.7:8888/rtp/239.49.8.17:9606
 #EXTINF:-1 ,东方卫视
 http://60.223.72.30:8001/rtp/226.0.2.175:9312
-#EXTINF:-1 ,东方卫视
-http://114.254.95.217:88/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,东方卫视
-http://114.254.82.125:88/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,东方卫视
-http://123.160.232.44:85/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,东方卫视
 http://118.72.68.254:888/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,云南卫视
@@ -324,8 +266,6 @@ http://116.237.248.97:7777/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=
 http://221.1.210.106:8053/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,云南卫视
 http://112.245.59.7:50085/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,云南卫视
-http://123.160.232.44:85/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,北京卫视
 http://123.138.216.44:9902/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,北京卫视
@@ -337,13 +277,7 @@ http://60.223.72.30:8001/rtp/226.0.2.177:9328
 #EXTINF:-1 ,北京卫视
 http://118.72.51.216:888/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,北京卫视
-http://171.116.191.85:9999/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,北京卫视
-http://1.194.50.179:10086/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,北京卫视
 http://121.19.134.189:808/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,吉林卫视
-http://171.116.191.85:9999/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,吉林卫视
 http://58.208.3.7:8888/rtp/239.49.8.187:6000
 #EXTINF:-1 ,吉林卫视
@@ -358,8 +292,6 @@ http://118.72.68.254:888/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
 http://118.72.51.216:888/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,吉林卫视
 http://123.138.216.44:9902/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,四川卫视
-http://123.183.25.86:6666/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,四川卫视
 http://58.208.3.7:8888/rtp/239.49.8.184:6000
 #EXTINF:-1 ,四川卫视
@@ -384,28 +316,10 @@ http://113.24.136.208:8082/udp/239.1.1.46:8046
 http://60.223.72.30:8001/rtp/226.0.2.148:9096
 #EXTINF:-1 ,天津卫视
 http://118.72.51.216:888/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,天津卫视
-http://123.183.25.86:6666/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,天津卫视
-http://114.254.82.125:88/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,天津卫视
-http://114.254.95.217:88/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,安徽卫视
-http://114.254.82.125:88/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,安徽卫视
 http://113.24.136.208:8082/udp/239.1.1.44:8044
 #EXTINF:-1 ,安徽卫视
-http://60.223.72.30:8001/rtp/226.0.2.145:9072
-#EXTINF:-1 ,安徽卫视
-http://123.183.25.86:6666/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,安徽卫视
-http://171.116.191.85:9999/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,安徽卫视
 http://113.57.21.233:8666/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,安徽卫视
-http://114.254.95.217:88/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,山东卫视
-http://123.160.232.44:85/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,山东卫视
 http://58.208.3.7:8888/rtp/239.49.8.7:9306
 #EXTINF:-1 ,山东卫视
@@ -413,15 +327,9 @@ http://113.24.136.208:8082/udp/239.1.1.47:8047
 #EXTINF:-1 ,山东卫视
 http://60.223.72.30:8001/rtp/226.0.2.149:9104
 #EXTINF:-1 ,山东卫视
-http://114.254.82.125:88/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,山东卫视
 http://171.8.138.75:85/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,山东卫视
-http://171.116.191.85:9999/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,山东卫视
 http://221.1.210.106:8053/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,山西卫视
-http://171.116.191.85:9999/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,山西卫视
 http://60.223.72.30:8001/rtp/226.0.2.152:9128
 #EXTINF:-1 ,山西卫视
@@ -431,8 +339,6 @@ http://124.165.251.82:9999/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 ,山西卫视
 http://171.116.246.5:9999/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,广东卫视
-http://123.160.232.44:85/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,广东卫视
 http://58.208.3.7:8888/rtp/239.49.8.13:9422
 #EXTINF:-1 ,广东卫视
 http://113.24.136.208:8082/udp/239.1.1.49:8049
@@ -441,11 +347,7 @@ http://60.223.72.30:8001/rtp/226.0.2.146:9080
 #EXTINF:-1 ,广东卫视
 http://121.19.134.189:808/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,广东卫视
-http://171.116.191.85:9999/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,广东卫视
 http://113.57.21.233:8666/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,广东卫视
-http://123.183.25.86:6666/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,广西卫视
 http://113.86.206.78:9999/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,广西卫视
@@ -454,10 +356,6 @@ http://58.208.3.7:8888/rtp/239.49.8.209:6000
 http://60.223.72.30:8001/rtp/226.0.2.231:9760
 #EXTINF:-1 ,广西卫视
 http://171.8.138.75:85/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,广西卫视
-http://123.183.25.86:6666/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,广西卫视
-http://123.160.232.44:85/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,广西卫视
 http://116.237.248.97:7777/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,旅游卫视
@@ -483,8 +381,6 @@ http://123.138.216.44:9902/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 ,江苏卫视
 http://121.19.134.189:808/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,江西卫视
-http://123.183.25.86:6666/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,江西卫视
 http://58.208.3.7:8888/rtp/239.49.8.185:6000
 #EXTINF:-1 ,江西卫视
 http://113.24.136.208:8082/udp/239.1.1.52:8052
@@ -495,21 +391,13 @@ http://113.57.21.233:8666/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,江西卫视
 http://123.138.216.44:9902/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,江西卫视
-http://171.116.191.85:9999/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,江西卫视
 http://171.8.138.75:85/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,河北卫视
-http://114.254.95.217:88/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河北卫视
 http://58.208.3.7:8888/rtp/239.49.8.188:6000
 #EXTINF:-1 ,河北卫视
 http://113.24.136.208:8082/udp/239.1.1.48:8048
 #EXTINF:-1 ,河北卫视
 http://60.223.72.30:8001/rtp/226.0.2.178:9336
-#EXTINF:-1 ,河北卫视
-http://171.116.191.85:9999/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,河北卫视
-http://123.183.25.86:6666/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河北卫视
 http://60.212.2.122:8154/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河北卫视
@@ -523,15 +411,9 @@ http://113.24.136.208:8082/udp/239.1.1.34:8034
 #EXTINF:-1 ,河南卫视
 http://60.223.72.30:8001/rtp/226.0.2.52:8328
 #EXTINF:-1 ,河南卫视
-http://123.183.25.86:6666/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,河南卫视
 http://171.8.138.75:85/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河南卫视
-http://123.160.232.44:85/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,河南卫视
 http://121.19.134.189:808/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,浙江卫视
-http://123.160.232.44:85/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,浙江卫视
 http://58.208.3.7:8888/rtp/239.49.8.20:9618
 #EXTINF:-1 ,浙江卫视
@@ -546,8 +428,6 @@ http://219.137.29.130:4433/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=
 http://116.237.248.97:7777/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,浙江卫视
 http://118.72.51.216:888/tsfile/live/0124_2.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,海南卫视
-http://171.116.191.85:9999/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,海南卫视
 http://58.208.3.7:8888/rtp/239.49.8.212:6000
 #EXTINF:-1 ,海南卫视
@@ -565,17 +445,11 @@ http://117.27.190.42:9901/tsfile/live/23283_1.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 ,海峡卫视
 http://110.81.206.138:50080/tsfile/live/23022_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,深圳卫视
-http://114.254.95.217:88/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,深圳卫视
 http://58.208.3.7:8888/rtp/239.49.8.15:9430
 #EXTINF:-1 ,深圳卫视
 http://113.24.136.208:8082/udp/239.1.1.39:8039
 #EXTINF:-1 ,深圳卫视
 http://60.223.72.30:8001/rtp/226.0.2.147:9088
-#EXTINF:-1 ,深圳卫视
-http://114.254.82.125:88/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,深圳卫视
-http://123.160.232.44:85/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,深圳卫视
 http://123.138.216.44:9902/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,深圳卫视
@@ -589,10 +463,6 @@ http://113.24.136.208:8082/udp/239.1.1.32:8032
 #EXTINF:-1 ,湖北卫视
 http://60.223.72.30:8001/rtp/226.0.2.150:9112
 #EXTINF:-1 ,湖北卫视
-http://114.254.82.125:88/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,湖北卫视
-http://1.194.50.179:10086/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,湖北卫视
 http://111.225.114.93:808/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,湖北卫视
 http://171.116.246.144:9999/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -604,10 +474,6 @@ http://58.208.3.7:8888/rtp/239.49.8.12:9418
 http://113.24.136.208:8082/udp/239.1.1.28:8028
 #EXTINF:-1 ,湖南卫视
 http://60.223.72.30:8001/rtp/226.0.2.143:9056
-#EXTINF:-1 ,湖南卫视
-http://1.194.50.179:10086/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,湖南卫视
-http://114.254.82.125:88/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,湖南卫视
 http://113.57.21.233:8666/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,湖南卫视
@@ -623,15 +489,11 @@ http://222.89.107.42:9876/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,甘肃卫视
 http://111.225.114.78:808/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,贵州卫视
-http://171.116.191.85:9999/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,贵州卫视
 http://58.208.3.7:8888/rtp/239.49.8.174:6000
 #EXTINF:-1 ,贵州卫视
 http://113.24.136.208:8082/udp/239.1.1.43:8043
 #EXTINF:-1 ,贵州卫视
 http://60.223.72.30:8001/rtp/226.0.2.180:9352
-#EXTINF:-1 ,贵州卫视
-http://123.183.25.86:6666/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,贵州卫视
 http://121.19.134.189:808/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,贵州卫视
@@ -655,8 +517,6 @@ http://113.57.21.233:8666/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,辽宁卫视
 http://111.225.94.178:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,重庆卫视
-http://123.183.25.86:6666/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,重庆卫视
 http://58.208.3.7:8888/rtp/239.49.8.57:9830
 #EXTINF:-1 ,重庆卫视
 http://113.24.136.208:8082/udp/239.1.1.36:8036
@@ -664,8 +524,6 @@ http://113.24.136.208:8082/udp/239.1.1.36:8036
 http://60.223.72.30:8001/rtp/226.0.2.174:9304
 #EXTINF:-1 ,重庆卫视
 http://123.182.211.96:8088/tsfile/live/faacts/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,重庆卫视
-http://123.160.232.44:85/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,重庆卫视
 http://171.8.138.75:85/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,重庆卫视
@@ -675,8 +533,6 @@ http://219.145.93.74:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,陕西卫视
 http://222.89.107.42:9876/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,青海卫视
-http://123.160.232.44:85/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,青海卫视
 http://117.27.190.42:9901/tsfile/live/23255_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,青海卫视
 http://171.8.138.75:85/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -685,8 +541,6 @@ http://60.212.2.122:8154/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,青海卫视
 http://222.173.134.150:8888/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,黑龙江卫视
-http://1.194.50.179:10086/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,黑龙江卫视
 http://58.208.3.7:8888/rtp/239.49.8.14:9426
 #EXTINF:-1 ,黑龙江卫视
 http://113.24.136.208:8082/udp/239.1.1.37:8037
@@ -694,12 +548,6 @@ http://113.24.136.208:8082/udp/239.1.1.37:8037
 http://60.223.72.30:8001/rtp/226.0.2.151:9120
 #EXTINF:-1 ,黑龙江卫视
 http://123.138.216.44:9902/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,黑龙江卫视
-http://123.183.25.86:6666/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,黑龙江卫视
-http://114.254.95.217:88/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,黑龙江卫视
-http://171.116.191.85:9999/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CETV1
 http://111.225.114.78:808/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,厦门1
@@ -722,40 +570,10 @@ http://121.19.134.189:808/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 http://111.225.114.78:808/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,BTV冬奥纪实
 http://111.225.114.78:808/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV卡酷
-http://114.254.82.125:88/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV卡酷
-http://114.254.92.42:88/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV卡酷
-http://114.254.95.217:88/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV卡酷
-http://114.254.85.245:88/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV影视
-http://114.254.82.125:88/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV影视
-http://114.254.85.245:88/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV影视
-http://114.254.92.42:88/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV文艺
-http://114.254.95.217:88/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV文艺
-http://114.254.85.245:88/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV文艺
-http://114.254.82.125:88/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV新闻
-http://114.254.95.217:88/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV新闻
-http://114.254.82.125:88/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV新闻
-http://114.254.92.42:88/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,BTV新闻
-http://114.254.85.245:88/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CETV
+#EXTINF:-1 ,CETV[1920*1440]
 http://116.237.248.97:7777/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,CGTN
 http://110.81.206.138:50080/tsfile/live/23016_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,CGTN
-http://123.183.25.86:6666/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,IPTV古装剧场
 http://118.253.0.237:2023/tsfile/live/1085_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,IPTV经典剧场
@@ -777,15 +595,7 @@ http://116.237.248.97:7777/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 ,保定新闻综合
 http://121.19.134.189:808/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,保定新闻综合
-http://111.225.114.78:808/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,保定新闻综合
 http://111.225.114.93:808/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,公共
-http://123.160.232.44:85/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,凤凰中文台
-http://110.81.206.138:50080/tsfile/live/23020_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,凤凰资讯台
-http://110.81.206.138:50080/tsfile/live/23019_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,动漫秀场
 http://116.237.248.97:7777/tsfile/live/1052_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,北京纪实
@@ -830,8 +640,6 @@ http://60.212.2.122:8154/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 http://60.212.2.122:8154/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,山东齐鲁
 http://222.173.134.150:8888/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,山西公共
-http://171.116.191.85:9999/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,岚县电视台
 http://124.165.251.82:9999/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,广东体育
@@ -857,21 +665,11 @@ http://116.237.248.97:7777/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 ,快乐垂钓
 http://111.225.114.93:808/tsfile/live/1042_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,新闻
-http://123.160.232.44:85/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,新闻
 http://171.8.138.75:85/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,新闻综合
 http://116.237.248.97:7777/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,梨园
-http://1.194.50.179:10086/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,梨园
-http://123.160.232.44:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,梨园
 http://171.8.138.75:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,民生
-http://171.8.138.75:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,民生
-http://1.194.50.179:10086/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,江苏城市
 http://58.220.219.14:9901/tsfile/live/0120_3.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,江苏综艺
@@ -890,8 +688,6 @@ http://111.225.114.78:808/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 http://111.225.114.78:808/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河北少儿科教
 http://121.19.134.189:808/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,河北少儿科教
-http://123.182.211.96:8088/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河北影视
 http://123.182.211.96:8088/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河北影视剧
@@ -923,15 +719,9 @@ http://222.89.107.42:9876/tsfile/live/0139_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河南法制
 http://222.89.107.42:9876/tsfile/live/0139_3.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河南电视剧
-http://1.194.50.179:10086/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,河南电视剧
 http://222.89.107.42:9876/tsfile/live/0139_4.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,河南都市
 http://222.89.107.42:9876/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,法制
-http://123.160.232.44:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,法治
-http://1.194.50.179:10086/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,法治天地
 http://116.237.248.97:7777/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,湖北垄上
@@ -954,8 +744,6 @@ http://113.57.21.233:8666/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 http://113.57.150.190:9000/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,湖北经视
 http://113.57.103.216:9000/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,湖南娱乐
-http://118.253.0.237:2023/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,湛江公共
 http://113.86.206.78:9999/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,湛江新闻综合
@@ -995,17 +783,7 @@ http://117.27.190.42:9901/tsfile/live/23289_1.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 ,福建经济生活
 http://110.81.206.138:50080/tsfile/live/23028_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,福建综合
-http://110.81.206.138:50080/tsfile/live/23023_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,福建综合
 http://117.27.190.42:9901/tsfile/live/23284_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,移动戏曲
-http://171.8.138.75:85/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,第一财经
-http://116.237.248.97:7777/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,纪实
-http://1.194.50.179:10086/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,纪实人文
-http://116.237.248.97:7777/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,纪实人文
 http://113.24.136.208:8082/udp/239.1.1.45:8045
 #EXTINF:-1 ,纪实人文
@@ -1037,10 +815,6 @@ http://123.182.211.96:8088/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=
 #EXTINF:-1 ,都市
 http://171.8.138.75:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,都市
-http://1.194.50.179:10086/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,都市
-http://123.160.232.44:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,都市
 http://116.237.248.97:7777/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,都市剧场
 http://116.237.248.97:7777/tsfile/live/1053_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -1060,7 +834,3 @@ http://111.225.114.93:808/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
 http://116.237.248.97:7777/tsfile/live/1042_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 ,金鹰纪实
 http://121.19.134.189:808/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,风云剧场
-http://171.116.191.85:9999/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 ,风云足球
-http://171.116.191.85:9999/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
