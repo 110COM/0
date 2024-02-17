@@ -1,9 +1,10 @@
 央视频道,#genre#
 CCTV1,http://223.75.123.222:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV1,http://111.225.113.108:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV1,http://58.53.154.79:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV1,http://58.210.60.226:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://112.235.200.98:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://123.189.36.216:9901/tsfile/live/1156_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV1,http://123.160.233.8:85/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2,http://121.238.176.72:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2,http://58.23.26.134:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2,http://60.12.183.46:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -21,7 +22,7 @@ CCTV4,http://112.235.202.17:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&a
 CCTV4,http://221.233.192.152:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV4,http://116.128.243.121:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV4,http://112.235.200.98:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5,http://123.160.233.8:85/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5,http://58.210.60.226:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5,http://116.128.243.121:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5,http://60.213.92.38:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5,http://123.189.36.241:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
