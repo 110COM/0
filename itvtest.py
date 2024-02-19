@@ -137,7 +137,7 @@ def process_urls(input_file, output_file):
     start_time = time.time()
     print(f"开始时间: {time.strftime('%H:%M:%S')}")
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = []
         for name, url in zip(names, urls):
             future = executor.submit(get_resolution, name, url, timeout=15)  # 设置任务超时时间为15秒
