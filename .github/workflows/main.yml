@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: 
           pip install selenium requests futures opencv-python eventlet
-          pip install aiohttp requests
+          pip install aiohttp==3.8.1
           pip install concurrent.futures
 
       - name: Install Chrome WebDriver
