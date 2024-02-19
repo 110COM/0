@@ -51,12 +51,17 @@ jobs:
           name: itv
           path: ${{ github.workspace }}/
 
-      - name: 提交更改
+
+
+      - name: Set up Git
         run: |
-          git config --local user.email "6fybq3a5@nqmo.com"
-          git config --local user.name "o1il"
+          git config --global user.email "github-actions@example.com"
+          git config --global user.name "GitHub Actions"
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           git add .
-          git commit *.txt -m "Add generated file"
-          git commit *.m3u -m "Add generated file"
-          #git pull --rebase
+          git commit -m "Add generated files"
           git push -f
