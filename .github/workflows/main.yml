@@ -20,7 +20,10 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install selenium requests futures opencv-python eventlet
+        run: 
+          pip install selenium requests futures opencv-python eventlet
+          pip install aiohttp requests
+          pip install concurrent.futures
 
       - name: Install Chrome WebDriver
         run: |
