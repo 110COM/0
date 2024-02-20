@@ -71,7 +71,7 @@ def worker():
 
 
 # Number of worker threads
-num_threads = 30
+num_threads = 10
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     t.start()
