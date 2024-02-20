@@ -26,7 +26,7 @@ error_channels = []
 
 # 读取频道信息
 channels = []
-with open('itv.txt', 'r', encoding='utf-8') as file:
+with open('itv_speed.txt', 'r', encoding='utf-8') as file:
     for line in file:
         line = line.strip()
         if line and ',' in line:
@@ -76,7 +76,7 @@ def worker():
 
 
 # Number of worker threads
-num_threads = 10
+num_threads = 30
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     t.start()
@@ -173,7 +173,7 @@ for prefix in sorted(other_merged.keys()):
 
 
 # 将分类后的结果写入文件
-with open("itvlist.txt", 'w', encoding='utf-8') as file:
+with open("10001", 'w', encoding='utf-8') as file:
     # 写入CCTV频道
     file.write('央视频道,#genre#\n')
     for channel_name, channel_url in cctv_merged:
@@ -195,7 +195,7 @@ with open("itvlist.txt", 'w', encoding='utf-8') as file:
 
 
 # 将分类后的结果写入  央视.txt
-with open("hysd.txt", 'w', encoding='utf-8') as file:
+with open("hyd", 'w', encoding='utf-8') as file:
     # 写入CCTV频道
     file.write('央视频道,#genre#\n')
     for channel_name, channel_url in cctv_merged:
@@ -204,7 +204,7 @@ with open("hysd.txt", 'w', encoding='utf-8') as file:
 
 
 # 创建新的m3u文件并写入数据
-with open("itvlist.m3u", 'w', encoding='utf-8') as file:
+with open("10001m3u", 'w', encoding='utf-8') as file:
     file.write('#EXTM3U\n')
     
     # 写入央视频道
@@ -227,7 +227,7 @@ with open("itvlist.m3u", 'w', encoding='utf-8') as file:
 
 
 # 创建新的m3u文件并写入数据
-with open("hysd.m3u", 'w', encoding='utf-8') as file:
+with open("hydm3u", 'w', encoding='utf-8') as file:
     file.write('#EXTM3U\n')
     
     # 写入央视频道
