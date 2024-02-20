@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '26 10,16 * * *'
+    - cron: '0 6,15 * * *'
   push:
     branches:
       - bra
@@ -42,26 +42,23 @@ jobs:
       - name: Run itv
         run: python ${{ github.workspace }}/itv.py
 
-      - name: Run itvtest
-        run: python ${{ github.workspace }}/itvtest.py
+      #- name: Run itvtest
+        #run: python ${{ github.workspace }}/itvtest.py
         
-      - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v4.0.0
-        with:
-          name: itv
-          path: ${{ github.workspace }}/
+      #- name: Upload a Build Artifact
+        #uses: actions/upload-artifact@v4.0.0
+        #with:
+          #name: itv
+          #path: ${{ github.workspace }}/
 
 
 
-      - name: Set up Git
+      - name: 提交更改
         run: |
-          git config --global user.email "github-actions@example.com"
-          git config --global user.name "GitHub Actions"
-
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
+          git config --local user.email "6fybq3a5@nqmo.com"
+          git config --local user.name "o1il"
           git add .
-          git commit -m "Add generated files"
+          git commit *.txt -m "Add generated file"
+          git commit *.m3u -m "Add generated file"
+          #git pull --rebase
           git push -f
