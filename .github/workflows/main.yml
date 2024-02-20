@@ -46,6 +46,10 @@ jobs:
 
       - name: Run itvtest
         run: python ${{ github.workspace }}/itvtest.py
+
+      - name: Run hd
+        run: python ${{ github.workspace }}/hd.py
+        
         
       #- name: Upload a Build Artifact
         #uses: actions/upload-artifact@v4.0.0
@@ -60,7 +64,6 @@ jobs:
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
           git add .
-          git commit *.txt -m "Add generated file"
-          git commit *.m3u -m "Add generated file"
+          git commit -m "Add generated files"
           #git pull --rebase
           git push -f
