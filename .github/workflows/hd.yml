@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '0 6,15 * * *'
+    - cron: '25 7,16 * * *'
   push:
     branches:
       - bra
@@ -41,10 +41,10 @@ jobs:
           sudo ln -sf /usr/local/bin/chrome-headless-shell-linux64/chrome-headless-shell /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
 
-      - name: Run itv
-        run: python ${{ github.workspace }}/itv.py
+      #- name: Run itv
+        #run: python ${{ github.workspace }}/itv.py
 
-      - name: Run itvtest
+      - name: Run hd
         run: python ${{ github.workspace }}/hd.py
         
       #- name: Upload a Build Artifact
