@@ -42,8 +42,8 @@ jobs:
       - name: Run itv
         run: python ${{ github.workspace }}/itv.py
 
-      #- name: Run itvtest
-        #run: python ${{ github.workspace }}/itvtest.py
+      - name: Run itvtest
+        run: python ${{ github.workspace }}/itvtest.py
         
       #- name: Upload a Build Artifact
         #uses: actions/upload-artifact@v4.0.0
