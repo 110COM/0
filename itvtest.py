@@ -41,7 +41,7 @@ with open('itv.txt', 'r', encoding='utf-8') as file:
 
 
 # Function to get resolution using ffprobe
-def get_resolution(name, url, timeout=3):
+def get_resolution(name, url, timeout=10):
     process = None
     try:
         cmd = ['ffprobe', '-print_format', 'json', '-show_streams', '-select_streams', 'v', url]
@@ -65,7 +65,7 @@ def worker():
     while True:
         channel_name, channel_url = task_queue.get()
         try:
-            resolution_info = get_resolution(channel_name, channel_url, timeout=5)
+            resolution_info = get_resolution(channel_name, channel_url, timeout=15)
             if resolution_info:
                 results.append(resolution_info)
         except Exception as e:
