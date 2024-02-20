@@ -59,9 +59,8 @@ jobs:
         run: |
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
-          git add .
-          git commit *.txt -m "Add generated file"
-          git commit *.m3u -m "Add generated file"
+          git add *
+          git commit -m "Add generated files"
           #git pull --rebase
           git push -f
 
