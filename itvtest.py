@@ -8,6 +8,8 @@ import subprocess
 import json
 import requests
 import threading
+import logging
+
 
 from queue import Queue
 
@@ -23,6 +25,7 @@ error_channels = []
 
 
 # 读取频道信息
+channels = []
 with open('itv.txt', 'r', encoding='utf-8') as file:
     for line in file:
         line = line.strip()
@@ -30,6 +33,8 @@ with open('itv.txt', 'r', encoding='utf-8') as file:
             try:
                 channel_name, channel_url = line.split(',')
                 channels.append((channel_name.strip(), channel_url.strip()))
+                # 输出获取到的频道信息
+                print(f"Channel Name: {channel_name.strip()}, Channel URL: {channel_url.strip()}")
             except ValueError:
                 continue
 
