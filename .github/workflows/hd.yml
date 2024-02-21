@@ -66,6 +66,8 @@ jobs:
           if [ -n "$conflicted_files" ]; then
             echo "发生了冲突的文件："
             echo "$conflicted_files"
+            echo "冲突文件的内容："
+            cat $conflicted_files
             exit 1
           fi
           git push origin HEAD:0
