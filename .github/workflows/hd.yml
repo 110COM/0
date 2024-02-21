@@ -59,6 +59,7 @@ jobs:
         run: |
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
+          git config pull.rebase false
           git checkout 0
           git pull origin 0
           cp 10001 10001m3u hyd hydm3u .
