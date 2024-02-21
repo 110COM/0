@@ -62,12 +62,5 @@ jobs:
           git add 10001 10001m3u hyd hydm3u  
           git commit -m "Add 10001 and 10001m3u and hyd and hydm3u to 0 branch"
           git pull --rebase origin 0
-          conflicted_files=$(git diff --name-only --diff-filter=U)
-          if [ -n "$conflicted_files" ]; then
-            echo "发生了冲突的文件："
-            echo "$conflicted_files"
-            echo "冲突文件的内容："
-            cat $conflicted_files
-            exit 1
-          fi
+          git merge --no-ff origin/0
           git push origin HEAD:0
