@@ -59,8 +59,11 @@ jobs:
         run: |
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
+          git checkout 0
+          git pull origin 0
+          cp 10001 10001m3u hyd hydm3u .
           git add 10001 10001m3u hyd hydm3u  
-          git commit -m "Add 10001 and 10001m3u and hyd and hydm3u to 0 branch"
-          git pull --rebase origin 0
-          git merge -X theirs origin/0
+          git commit -m "Add 10001, 10001m3u, hyd and hydm3u to 0 branch"
+          git push origin 0
+          
           git push origin HEAD:0
