@@ -59,13 +59,13 @@ jobs:
         run: |
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
-          git stash push -m "Stashing local changes"
           git config pull.rebase false
           git checkout 0
           git pull origin 0 --allow-unrelated-histories  # 允许合并不相关历史
-          git stash pop
+          git checkout main
+          git merge 0 --no-edit
           cp 10001 10001m3u hyd hydm3u .
           git add 10001 10001m3u hyd hydm3u  
           git commit -m "Add 10001, 10001m3u, hyd and hydm3u to 0 branch"
-          git push --force-with-lease origin HEAD:0
+          git push --force-with-lease origin main:0
           
