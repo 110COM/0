@@ -67,5 +67,5 @@ jobs:
           cp 10001 10001m3u hyd hydm3u .
           git add 10001 10001m3u hyd hydm3u  
           git commit -m "Add 10001, 10001m3u, hyd and hydm3u to 0 branch"
-          git push origin HEAD:0
+          git push --force origin HEAD:0
           
