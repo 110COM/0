@@ -60,14 +60,10 @@ jobs:
 
 
       - name: 提交更改
-       run: |
-         git config --local user.email "6fybq3a5@nqmo.com"
-         git config --local user.name "o1il"
-         git add 10001 10001m3u hyd hydm3u 
-         git commit -m "Add 10001 and 10001m3u and hyd and hydm3u to 0 branch"
-         git pull --rebase origin 0
-         git push origin 0  
-      
-         git add itv.txt itv_speed.txt  
-         git commit -m "Add itv.txt and itv_speed.txt to current branch"
-         git push origin HEAD  
+        run: |
+          git config --local user.email "6fybq3a5@nqmo.com"
+          git config --local user.name "o1il"
+          git add .
+          git commit -m "Add generated files"
+          #git pull --rebase
+          git push -f
