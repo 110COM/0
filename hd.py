@@ -8,15 +8,15 @@ import subprocess
 import json
 import requests
 import threading
-import logging
+
 
 
 from queue import Queue
 
-# 线程安全的队列，用于存储下载任务
+
 task_queue = Queue()
 
-# 线程安全的列表，用于存储结果
+
 results = []
 channels = []
 error_channels = []
@@ -24,7 +24,7 @@ error_channels = []
 
 
 
-# 读取频道信息
+
 channels = []
 with open('itv_speed.txt', 'r', encoding='utf-8') as file:
     for line in file:
@@ -33,14 +33,12 @@ with open('itv_speed.txt', 'r', encoding='utf-8') as file:
             try:
                 channel_name, channel_url = line.split(',')
                 channels.append((channel_name.strip(), channel_url.strip()))
-                # 输出获取到的频道信息
-                print(f"Channel Name: {channel_name.strip()}, Channel URL: {channel_url.strip()}")
             except ValueError:
                 continue
 
 
 
-# Function to get resolution using ffprobe
+
 def get_resolution(name, url, timeout=10):
     process = None
     try:
@@ -75,25 +73,25 @@ def worker():
 
 
 
-# Number of worker threads
+
 num_threads = 30
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     t.start()
 
-# Add download tasks to the queue
+
 for channel in channels:
     task_queue.put(channel)
 
-# Wait for all tasks to complete
+
 task_queue.join()
 
 
 
-# 对结果进行排序和合并
+
 sorted_results = sorted(results, key=lambda x: (int(re.search(r'\d+', x[0]).group()) if re.search(r'\d+', x[0]) else float('inf'), x[0] != 'CCTV5'))
 
-# 分类频道
+
 cctv_channels = []
 satellite_channels = []
 other_channels = []
@@ -108,12 +106,11 @@ for channel_name, channel_url in sorted_results:
 
 
 
-# 对CCTV频道进行合并、排序、限制数量
-#cctv_channels.sort(key=lambda x: int(re.search(r'\d+', x[0]).group()) if re.search(r'\d+', x[0]) else float('inf'))
+
 
 cctv_merged = []
 channel_counters = {}
-result_counter = 7  # 每个频道需要的个数
+result_counter = 7 
 
 for channel_name, channel_url in cctv_channels:
    if channel_name in channel_counters:
@@ -127,10 +124,10 @@ for channel_name, channel_url in cctv_channels:
        channel_counters[channel_name] = 1
 
 
-# 对卫视频道进行合并、排序、限制数量
+
 satellite_merged = {}
 channel_counters = {}
-result_counter = 7  # 每个频道需要的个数
+result_counter = 7  
 
 for channel_name, channel_url in satellite_channels:
     prefix = channel_name.split(' ')[0]
@@ -146,10 +143,10 @@ for channel_name, channel_url in satellite_channels:
         channel_counters[channel_name] = 1
 
     
-# 对其他频道进行合并和排序
+
 other_merged = {}
 channel_counters = {}
-result_counter = 4  # 每个频道需要的个数
+result_counter = 4  
 
 for channel_name, channel_url in other_channels:
     prefix = channel_name.split(' ')[0]
@@ -164,7 +161,7 @@ for channel_name, channel_url in other_channels:
     if channel_counters[channel_name] < result_counter:
         channel_counters[channel_name] += 1
 
-# 对 other_channels 进行排序
+
 other_channels_sorted = []
 for prefix in sorted(other_merged.keys()):
     for channel_name, channel_url in other_merged[prefix]:
@@ -172,20 +169,20 @@ for prefix in sorted(other_merged.keys()):
 
 
 
-# 将分类后的结果写入文件
+
 with open("10001", 'w', encoding='utf-8') as file:
-    # 写入CCTV频道
+
     file.write('央视频道,#genre#\n')
     for channel_name, channel_url in cctv_merged:
         file.write(f"{channel_name},{channel_url}\n")
     
-    # 写入卫视频道
+
     file.write('卫视频道,#genre#\n')
     for prefix in sorted(satellite_merged.keys()):
         for channel_name, channel_url in satellite_merged[prefix]:
             file.write(f"{channel_name},{channel_url}\n")
     
-    # 写入其他频道
+
     file.write('其他频道,#genre#\n')
     for prefix in sorted(other_merged.keys()):
         for channel_name, channel_url in other_merged[prefix]:    
@@ -194,7 +191,7 @@ with open("10001", 'w', encoding='utf-8') as file:
     
 
 
-# 将分类后的结果写入  央视.txt
+
 with open("hyd", 'w', encoding='utf-8') as file:
     # 写入CCTV频道
     file.write('央视频道,#genre#\n')
@@ -203,22 +200,22 @@ with open("hyd", 'w', encoding='utf-8') as file:
 
 
 
-# 创建新的m3u文件并写入数据
+
 with open("10001m3u", 'w', encoding='utf-8') as file:
     file.write('#EXTM3U\n')
     
-    # 写入央视频道
+
     for channel_name, channel_url in cctv_merged:
         file.write(f"#EXTINF:-1 group-title=\"央视频道\",{channel_name}\n")
         file.write(f"{channel_url}\n")
 
-    # 写入卫视频道
+
     for prefix in sorted(satellite_merged.keys()):
         for channel_name, channel_url in satellite_merged[prefix]:
             file.write(f"#EXTINF:-1 group-title=\"卫视频道\",{channel_name}\n")
             file.write(f"{channel_url}\n")
 
-    # 写入其他频道
+
     for prefix in sorted(other_merged.keys()):
         for channel_name, channel_url in other_merged[prefix]:
             file.write(f"#EXTINF:-1 group-title=\"其他频道\",{channel_name}\n")
@@ -226,11 +223,11 @@ with open("10001m3u", 'w', encoding='utf-8') as file:
 
 
 
-# 创建新的m3u文件并写入数据
+
 with open("hydm3u", 'w', encoding='utf-8') as file:
     file.write('#EXTM3U\n')
     
-    # 写入央视频道
+
     for channel_name, channel_url in cctv_merged:
         file.write(f"#EXTINF:-1 group-title=\"央视频道\",{channel_name}\n")
         file.write(f"{channel_url}\n")
