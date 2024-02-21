@@ -2,7 +2,7 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '0 19,24 * * *'
+    - cron: '0 19,23 * * *'
   push:
     branches:
       - bra
