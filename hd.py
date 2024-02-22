@@ -146,7 +146,7 @@ for channel_name, channel_url in satellite_channels:
 
 other_merged = {}
 channel_counters = {}
-result_counter = 4  
+result_counter = 5  
 
 for channel_name, channel_url in other_channels:
     prefix = channel_name.split(' ')[0]
