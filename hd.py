@@ -160,6 +160,8 @@ for channel_name, channel_url in other_channels:
 
     if channel_counters[channel_name] < result_counter:
         channel_counters[channel_name] += 1
+        if channel_counters[channel_name] == result_counter:
+            continue
 
 
 other_channels_sorted = []
