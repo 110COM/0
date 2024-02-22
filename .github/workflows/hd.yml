@@ -64,4 +64,14 @@ jobs:
           #git pull --rebase
           git push -f
 
+
+      - name: 提交更改到主分支
+        run: |
+          git config --local user.email "6fybq3a5@nqmo.com"
+          git config --local user.name "o1il"
+          git checkout 0  # 切换到主分支
+          git add -A  # 添加所有更改，包括新文件、修改和删除的文件
+          git commit -m "Add generated files" || true  # 提交更改，即使没有更改也不会报错
+          git push -f origin 0  # 强制推送到主分支
+
           
