@@ -67,3 +67,16 @@ jobs:
           git commit -m "Add generated files"
           #git pull --rebase
           git push -f
+
+
+
+      - name: 提交更改到主分支
+        run: |
+          git config --local user.email "6fybq3a5@nqmo.com"
+          git config --local user.name "o1il"
+          git fetch origin 0:0  
+          git checkout 0
+          git checkout bra -- 10001 10001m3u hyd hydm3u  
+          git add 10001 10001m3u hyd hydm3u
+          git commit -m "Add files from bra branch" || true  
+          git push -f origin HEAD:refs/heads/0  
