@@ -73,6 +73,6 @@ jobs:
           git checkout 0  # 切换到主分支
           #git add -A  # 添加所有更改，包括新文件、修改和删除的文件
           git merge --no-ff --allow-unrelated-histories bra  # 合并分支并允许不相关的历史记录
-          git push -f origin 0  # 强制推送到主分支
+          git push -f origin HEAD:refs/heads/0
 
       
