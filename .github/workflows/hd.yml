@@ -69,10 +69,12 @@ jobs:
         run: |
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
-          git fetch origin 0:0  # 获取远程主分支的最新状态
-          git checkout 0  # 切换到主分支
-          #git add -A  # 添加所有更改，包括新文件、修改和删除的文件
-          git merge --no-ff --allow-unrelated-histories bra  # 合并分支并允许不相关的历史记录
-          git push -f origin HEAD:refs/heads/0
+          git fetch origin 0:refs/remotes/origin/0  # 获取主分支最新状态
+          git checkout -b 0 origin/0  # 创建并切换到本地的 zhu 分支
+          git merge --no-commit --allow-unrelated-histories bra  # 合并 bra 分支的更改到 zhu 分支，不提交
+          git commit -m "Merge bra into 0"  # 提交合并
+          git push -f origin 0:0  # 强制推送到主分支
+          git checkout bra  # 切回 bra 分支
+          git branch -D 0  # 删除本地的临时 zhu 分支
 
       
