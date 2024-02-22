@@ -151,17 +151,15 @@ result_counter = 4
 for channel_name, channel_url in other_channels:
     prefix = channel_name.split(' ')[0]
     if prefix in other_merged:
-        other_merged[prefix].append((channel_name, channel_url))
+        if channel_name not in channel_counters:
+            channel_counters[channel_name] = 0
+
+        if channel_counters[channel_name] < result_counter:
+            other_merged[prefix].append((channel_name, channel_url))
+            channel_counters[channel_name] += 1
     else:
         other_merged[prefix] = [(channel_name, channel_url)]
-
-    if channel_name not in channel_counters:
-        channel_counters[channel_name] = 0
-
-    if channel_counters[channel_name] < result_counter:
-        channel_counters[channel_name] += 1
-        if channel_counters[channel_name] == result_counter:
-            continue
+        channel_counters[channel_name] = 1
 
 
 other_channels_sorted = []
