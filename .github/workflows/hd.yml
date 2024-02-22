@@ -3,6 +3,7 @@ name: itvlist
 on:
   schedule:
     - cron: '0 19,23 * * *'
+  workflow_dispatch:
   push:
     branches:
       - bra
