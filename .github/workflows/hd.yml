@@ -70,9 +70,11 @@ jobs:
         run: |
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
-          git fetch origin 0:refs/remotes/origin/0  # 获取主分支最新状态
+          git fetch origin 0:0  # 获取远程主分支的最新状态
           git checkout 0
-          git merge --no-commit --allow-unrelated-histories --no-edit bra
-          git push origin 0:0 --force-with-lease
+          git checkout bra -- 10001 10001m3u hyd hydm3u  # 从当前分支 bra 检出指定文件到主分支 zhu
+          git add 10001 10001m3u hyd hydm3u
+          git commit -m "Add files from bra branch" || true  # 提交更改，即使没有更改也不会报错
+          git push -f origin HEAD:refs/heads/0  # 强制推送到主分支
 
       
