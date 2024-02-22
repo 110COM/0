@@ -69,9 +69,10 @@ jobs:
         run: |
           git config --local user.email "6fybq3a5@nqmo.com"
           git config --local user.name "o1il"
+          git fetch origin 0:0  # 获取远程主分支的最新状态
           git checkout 0  # 切换到主分支
-          git add -A  # 添加所有更改，包括新文件、修改和删除的文件
-          git commit -m "Add generated files" || true  # 提交更改，即使没有更改也不会报错
+          #git add -A  # 添加所有更改，包括新文件、修改和删除的文件
+          git merge --no-ff bra  # 将当前分支的更改合并到主分支，--no-ff 参数确保生成一个新的合并提交
           git push -f origin 0  # 强制推送到主分支
 
           
