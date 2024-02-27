@@ -3,9 +3,9 @@ name: itvlist
 on:
   schedule:
     - cron: '0 15,21 * * *'
-  push:
-    branches:
-      - bra
+  #push:
+    #branches:
+      #- bra
 jobs:
   build:
     runs-on: ubuntu-latest
