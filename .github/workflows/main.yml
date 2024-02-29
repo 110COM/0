@@ -2,11 +2,11 @@ name: itvlist
 
 on:
   schedule:
-    - cron: '0 15,21 * * *'
-  #push:
-    #branches:
-      #- bra
-      #- main
+    - cron: '0 7 * * *'
+  push:
+    branches:
+      - bra
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
