@@ -23,6 +23,7 @@ with open("itv.txt", 'r', encoding='utf-8') as file:
         line = line.strip()
         if line:
             channel_name, channel_url = line.split(',')
+            #if '卫视' in channel_name or 'CCTV' in channel_name or '农民' in channel_name or '戏曲' in channel_name or '梨园' in channel_name:
             channels.append((channel_name, channel_url))
 
 # 定义工作线程函数
@@ -32,7 +33,7 @@ def worker():
         channel_name, channel_url = task_queue.get()
         try:
             channel_url_t = channel_url.rstrip(channel_url.split('/')[-1])  # m3u8链接前缀
-            lines = requests.get(channel_url).text.strip().split('\n')  # 获取m3u8文件内容
+            lines = requests.get(channel_url,timeout=1).text.strip().split('\n')  # 获取m3u8文件内容
             ts_lists = [line.split('/')[-1] for line in lines if line.startswith('#') == False]  # 获取m3u8文件下视频流后缀
             ts_lists_0 = ts_lists[0].rstrip(ts_lists[0].split('.ts')[-1])  # m3u8链接前缀
             ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
@@ -40,7 +41,7 @@ def worker():
             # 多获取的视频数据进行5秒钟限制
             with eventlet.Timeout(5, False):
                 start_time = time.time()
-                content = requests.get(ts_url).content
+                content = requests.get(ts_url,timeout=1).content
                 end_time = time.time()
                 response_time = (end_time - start_time) * 1
 
@@ -71,12 +72,10 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 25
+num_threads = 30
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True) 
-    #t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
     t.start()
-    #event.set()
 
 # 添加下载任务到队列
 for channel in channels:
@@ -107,7 +106,3 @@ with open("itv_speed.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
         file.write(f"{channel_name},{channel_url}\n")
-
-
-
-    
