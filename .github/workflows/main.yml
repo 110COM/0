@@ -3,9 +3,9 @@ name: itvlist
 on:
   schedule:
     - cron: '0 7 * * *'
-  #push:
-    #branches:
-      #- bra
+  push:
+    branches:
+      - bra
       #- main
 jobs:
   build:
