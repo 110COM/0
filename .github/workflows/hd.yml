@@ -1,13 +1,13 @@
-name: itvlist
+name: hdml
 
 on:
   schedule:
     - cron: '0 19,23 * * *'
-  workflow_dispatch:
-  push:
-    branches:
-      - bra
-      - main
+  #workflow_dispatch:
+  #push:
+    #branches:
+      #- bra
+      #- main
 jobs:
   build:
     runs-on: ubuntu-latest
