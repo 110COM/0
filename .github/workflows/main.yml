@@ -51,13 +51,6 @@ jobs:
       - name: Run hd
         run: python ${{ github.workspace }}/hd.py
         
-        
-      #- name: Upload a Build Artifact
-        #uses: actions/upload-artifact@v4.0.0
-        #with:
-          #name: itv
-          #path: ${{ github.workspace }}/
-
 
 
       - name: 提交更改
