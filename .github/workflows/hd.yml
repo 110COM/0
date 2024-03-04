@@ -1,8 +1,8 @@
 name: hdml
 
-on:
-  schedule:
-    - cron: '0 1,10 * * *'
+#on:
+  #schedule:
+    #- cron: '0 1,10 * * *'
   #workflow_dispatch:
   push:
     branches:
