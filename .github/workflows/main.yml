@@ -5,8 +5,10 @@ on:
     - cron: '20 8,23 * * *'
   push:
     branches:
-      - bra
       - main
+      - bra
+  workflow_dispatch:
+
 
 jobs:
   build:
